@@ -11,7 +11,7 @@ class ContactDetails(db.Model):
     email = db.Column(db.String(100), nullable=False)
     message = db.Column(db.String(1000), nullable=False)
 
-    def __repr__(self):
+    def __ctl__(self):
         return '<ContactDetails %r>' % self.id
 
 
